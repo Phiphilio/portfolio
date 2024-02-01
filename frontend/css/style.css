@@ -75,6 +75,28 @@ section div img {
     border-radius: 60px;
     /* padding: 10px; */
 }
+.Section1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+.Section1 span {
+    border: 0px solid black;
+    background-color: #8347B9;
+    padding-left: 0px;
+    padding-right: 00px;
+    height: 55px;
+    border-radius: 60px 60px;
+    display: flex;
+    align-items: center;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+}
 
 /****écran tablette****/
 @media (max-width:1024px){
