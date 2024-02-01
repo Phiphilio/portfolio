@@ -1,0 +1,46 @@
+/*https://www.radix-ui.com/colors*/
+/**/
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 46%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ .fa-brands, .fa-solid {
+
+    list-style: none;
+    cursor: pointer;
+    font-size: 46px;
+   color: black;
+    border: 5px solid #402060;
+    border-radius: 60px;
+    padding: 7px;
+}
+ .fa-brands:hover, .fa-solid:hover {
+    color:#8347B9 ;
+
+    r: #402060;
+    border: 5px solid #8347B9;
+    
+}
+
+
+body {
+
+    background-color: #402060;
+}
+
+h1 {
+    color: white
+}
