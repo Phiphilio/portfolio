@@ -1,10 +1,32 @@
 /*https://www.radix-ui.com/colors*/
 /**/
+
+/*éléments génériques*/
+
+h1,
+h2,
+h3,
+p {
+    color: white
+}
+
+body {
+
+    background-color: #402060;
+}
+
+/**/
 nav {
     display: flex;
     flex-direction: row;
     gap: 46%;
 }
+
+nav h1 {
+    font-size: 40px;
+    white-space: nowrap;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -13,34 +35,54 @@ ul {
     gap: 20px;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
- .fa-brands, .fa-solid {
+.fa-brands,
+.fa-solid {
 
     list-style: none;
     cursor: pointer;
     font-size: 46px;
-   color: black;
+    color: white;
     border: 5px solid #402060;
     border-radius: 60px;
     padding: 7px;
 }
- .fa-brands:hover, .fa-solid:hover {
-    color:#8347B9 ;
+
+.fa-brands:hover,
+.fa-solid:hover {
+    color: #8347B9;
 
     r: #402060;
     border: 5px solid #8347B9;
+
+}
+
+section {
+    gap: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section div img {
+    width: 200px;
+    height: 200px;
+    border: 55px white;
+    border-radius: 60px;
+    /* padding: 10px; */
+}
+
+/****écran tablette****/
+@media (max-width:1024px){
     
 }
+/****écran mobile****/
 
-
-body {
-
-    background-color: #402060;
-}
-
-h1 {
-    color: white
+@media (max-width:781px) {
+   
+    
 }
